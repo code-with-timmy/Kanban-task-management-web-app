@@ -63,7 +63,7 @@ function AddBoardForm({ onCloseModal, boardToEdit = {} }) {
       </div>
       <AddSubTaskForm title="Columns" name="columns" control={control} />
 
-      <button className="w-full rounded-3xl bg-main-purple text-center py-3 font-bold text-sm max-sm:text-[0.85rem] text-heading hover:bg-purple-purple-hover">
+      <button className="w-full rounded-3xl bg-main-purple text-center py-3 font-bold text-sm max-sm:text-[0.85rem] text-white hover:bg-purple-purple-hover">
         {isEditSession ? "Save Changes" : "Create New Board"}
       </button>
     </form>
